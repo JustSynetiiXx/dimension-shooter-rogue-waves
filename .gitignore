@@ -1,5 +1,41 @@
+# Unreal Engine
+Binaries/
+Intermediate/
+Saved/
+Plugins/Marketplace/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
 # Visual Studio 2015 user specific files
 .vs/
+*.VC.db
+*.VS.db-shm
+*.VC.db-wal
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# User-specific
+DerivedDataCache/
+Content/StarterContent/
 
 # Compiled Object files
 *.slo
