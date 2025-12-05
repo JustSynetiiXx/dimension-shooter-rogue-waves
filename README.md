@@ -38,19 +38,22 @@ A turn-based first-person shooter with innovative dimension-switching mechanics.
 
 ## Project Structure
 
+```text
 Content/
 ├── Blueprints/
-│ ├── Player/
-│ ├── Weapons/
-│ ├── Abilities/
-│ ├── Enemy/
-│ ├── GameMode/
-│ └── UI/
+│   ├── Player/
+│   ├── Weapons/
+│   ├── Abilities/
+│   ├── Enemy/
+│   ├── GameMode/
+│   └── UI/
 ├── Maps/
 ├── Materials/
 ├── Particles/
 ├── Audio/
 └── Config/
+```
+
 
 ## Getting Started
 
@@ -88,20 +91,21 @@ Core Mechanics
 - Abilities: Cooldown-based special abilities
 - Progression: Round-based wave system with increasing difficulty
 
-Controls (Default)
+### Controls (Default)
 
-Action	          Key
-Move	            WASD
-Jump            	Space
-Slide            	Ctrl
-Sprint          	Shift
-Look	            Mouse
-Fire	            Left Mouse Button
-Aim	              Right Mouse Button
-Switch Weapon	    1, 2, 3
-Dimension Switch	Q
-Ability 1	        F
-Ability 2        	E + Direction
+| Action           | Key                |
+|------------------|--------------------|
+| Move             | WASD               |
+| Jump             | Space              |
+| Slide            | Ctrl               |
+| Sprint           | Shift              |
+| Look             | Mouse              |
+| Fire             | Left Mouse Button  |
+| Aim              | Right Mouse Button |
+| Switch Weapon    | 1, 2, 3            |
+| Dimension Switch | Q                  |
+| Ability 1        | F                  |
+| Ability 2        | E + Direction      |
 
 Progression
 
